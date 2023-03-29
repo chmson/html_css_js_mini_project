@@ -1,0 +1,108 @@
+*{
+  font-family: sans-serif;
+}
+
+/* .wrapper{
+  background-color: #dbacec;
+  height: 1000%;
+  margin-left:100px ;
+  margin-right:140px ;
+}
+.container{
+  background-color: #e8a1b6;
+   border-radius: 10px;
+}
+.title{
+  font-style: italic;
+}
+/* .inputContainer{
+  border-radius: 50px; */
+/* } */ 
+body{
+  background: #a4a4f9;
+}
+.wrapper{
+  height: 525px;
+  width: 360px;
+  margin:100px;
+  border-radius:13px;
+  padding:15px;
+  background:#45443a ;
+}
+#topContainer{
+  margin-top:1.5rem;
+}
+.container{
+  margin-top:1.4rem;
+    
+  }
+.title{
+  font-weight:bold;
+  margin-bottom: 7px;
+}
+.inputContainer{
+  background: #f4a9d5;
+  border-radius: 1.2rem;
+  padding: 0.01rem 0.1rem;
+ 
+/*   align-items: center; */
+
+}
+#billTotalInput,
+#tipInput {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+/*   padding: none; */
+}
+.buttonContainer {
+  background-color: #ec224b;
+  display: grid;
+/*    grid-template-rows: auto auto auto; */
+  place-items: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+/*   margin-bottom: 25px; */
+/*   margin-top: 2px; */
+}
+/* .splitButton{ 
+/*  display:flex; */
+
+.controls {
+  display: flex;
+  align-items: start;
+}
+
+.splitButton {
+    background:none;
+  border:none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+
+.buttonText{
+  font-weight: bold;
+  color:#bef2b0
+} 
+ .splitAmount{
+  font-size:20px;
+   padding:2px;
+  margin-left: 8px;
+   margin-right: 8px;
+}
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.total {
+  font-size: 2.2rem;
+}
