@@ -1,0 +1,27 @@
+
+* {
+  background-color:#bebef9 ;
+}
+#heroButton{
+  background-color: #2d3e2d; 
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+#search{
+  background-color: #75cc75; 
+  border: none;
+  color: #222020;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 6px;
+}
